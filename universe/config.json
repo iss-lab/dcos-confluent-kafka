@@ -1217,7 +1217,7 @@
           "title": "metric.reporters",
           "description": "Java class(es) to collect/report broker metrics",
           "type": "string",
-          "default": "com.airbnb.kafka.kafka09.StatsdMetricsReporter,io.confluent.metrics.reporter.ConfluentMetricsReporter"
+          "default": "com.airbnb.kafka.kafka09.StatsdMetricsReporter"
         },
         "metrics_num_samples": {
           "title": "metrics.num.samples",
